@@ -1,0 +1,10 @@
+uname -a	==> Display Linux System Information
+uname -f	==> Display Kernal release information
+uptime		==> shows how long the system has been running+load
+hostname	==> Shows systems host name
+hostname -i 	==> Displays the IP address of the Host
+date		==> Displays Date
+cal		==> shows month calander
+w		==> Displays who is online
+whoami		==> Shows who you are logged in as
+finger user	==> Displays info about user
