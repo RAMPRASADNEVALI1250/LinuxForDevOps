@@ -1,0 +1,13 @@
+# File permission related commands
+
+#### Change mofification
+chmod octal file-name		==> Change the permission of a file, CHangeMODification 
+Examples: chmod 777 file-name 	==> sets user group execute(777(111 111 111)-read write execute) for all
+		755 		==> user(7-111) group(5-101) others(5-101) -- this means read(1) wirte(1) execute(1) all permissions are granted for user but for group and other only read and execute are sets where as write permission for group and others are not given(5-101)
+
+#### Change owner
+chown owner-user file		==> Change owner of the file
+chown owner-user owner-group file-name ==> change owner and group owner of the file
+chown owner-user owner-group directory ==> Changes owner and group of the directory
+
+
