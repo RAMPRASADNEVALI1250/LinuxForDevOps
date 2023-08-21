@@ -1,0 +1,11 @@
+# Hardware Commands
+
+### Important, all proc related(Process)
+
+cat /proc/cpuinfo	==> CPU model
+cat /proc/meminfo	==> Hardware memory
+cat /proc/interrupts	==> Lists the number of interrupts per CPU per I/O device
+lshw			==> Displays info on hardware configuration of the system
+lsblk			==> Displays block device relates info in linux
+free -m 		==> Used and free memory(-m for MB)
+
